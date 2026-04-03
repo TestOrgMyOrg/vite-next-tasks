@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-image: url('/images/background.webp');
+  background-image: url('/images/grass-landscape.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
