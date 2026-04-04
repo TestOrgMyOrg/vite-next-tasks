@@ -47,7 +47,7 @@ export function TodoApp() {
   const activeCount = todos.filter((t) => !t.completed).length;
 
   return (
-    <div className="min-h-screen bg-background flex items-start justify-center px-4 pt-16 pb-20 sm:pt-24">
+    <div className="min-h-screen flex items-start justify-center px-4 pt-16 pb-20 sm:pt-24">
       <div className="w-full max-w-lg">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
